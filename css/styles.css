@@ -1,0 +1,207 @@
+body {
+  margin: 0px;
+  font-family: "Red Hat Text", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  background: #0a0a0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.logo {
+  margin: 20px;
+}
+ul {
+  width: 200px;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  color: white;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.fab {
+  color: white;
+  font-size: 20px;
+}
+
+.separacion {
+  padding: 20px;
+}
+.principal {
+  background: #261a4c;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.info {
+  width: 66%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+.multimedia {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 455px;
+  box-sizing: border-box;
+}
+section h1 {
+  color: #ee0000;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+aside {
+  width: 60%;
+  color: #ee0000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+aside h2 {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 30px;
+}
+aside p {
+  color: white;
+  letter-spacing: 1px;
+  margin: 5px;
+}
+
+.bg-red {
+  background: #ee0000;
+}
+
+.img-prin {
+  border-radius: 10px;
+}
+
+.secundario {
+  background: #0a0a0a;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.podcast {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.card {
+  background: #261a4c;
+  width: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.title {
+  font-family: "JetBrains Mono", monospace;
+  text-align: center;
+  height: 63px;
+}
+
+.card__desc {
+  min-height: 315px;
+}
+
+.card__desc--mod {
+  height: 315px;
+}
+
+footer {
+  background: #261a4c;
+  text-align: center;
+}
+footer h3 {
+  color: white;
+  margin: 0px;
+  font-family: "JetBrains Mono", monospace;
+}
+
+footer h3 a:hover {
+  color: red;
+}
+nav ul .epis {
+  font-weight: 400;
+}
+nav ul .epis:hover {
+  color: red;
+}
+nav ul li a i:hover {
+  color: red;
+}
+
+.bg-red a:hover {
+  background: #0a0a0a;
+}
+
+audio::-webkit-media-controls-panel {
+  background: #ee0000;
+}
+audio {
+  width: 100%;
+  height: 50px;
+}
+@media only screen and (max-width: 1304px) {
+  .multimedia {
+    justify-content: center;
+    align-items: center;
+  }
+  aside {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .multimedia {
+    justify-content: center;
+    align-items: center;
+  }
+  aside {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+  .podcast {
+    width: 100%;
+  }
+}
