@@ -4,3 +4,4 @@ Práctica para el programa SummerHack de escuelaDevRock, en donde se dicta HTML,
 En este proyecto solamente se tenía que usar HTML + CSS.
 Opciones de mejora: Implementar arquitectura BEM.
 Cualquier sugerencia es muy bien recibida.
+URL: https://podcast-reto02.web.app/
